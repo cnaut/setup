@@ -31,7 +31,7 @@ if [ -d ./dotfiles/ ]; then
     mv dotfiles dotfiles.old
 fi
 
-git clone https://github.com/startup-class/dotfiles.git
+git clone https://github.com/cnaut/dotfiles.git
 ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
